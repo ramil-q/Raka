@@ -1,0 +1,688 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.form>button{
+
+    padding: 15px 30px;
+    font-size: 20px; 
+    
+}
+
+.btn1{
+
+    margin-right: 10px;
+    
+
+}
+.form{
+
+    margin-right: 100px;
+
+}
+
+
+
+nav{
+
+
+    /* position: sticky !important; */
+    top: 0;
+    left: 0;
+}
+
+.lefta{
+
+    font-size: 20px;
+
+}
+.lefta1{
+    /* border-bottom: 2px solid black; */
+
+}
+
+
+
+.section2{
+    background-image: url('../images/book8.png');
+    background-repeat: no-repeat;
+    width: 100% !important; 
+    background-size: cover;
+    background-position:center bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0 420px 0 ;
+    
+}
+#inp{
+
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    /* border-radius: ; */
+  
+}
+
+.sec2p{
+
+    font-size: 23px;
+    font-weight: 400;
+    color: #4e4e4e;
+    text-align: justify;
+
+}
+.has1{
+
+    font-size: 44px !important;
+    font-weight: 600;
+    color: #111;
+    line-height: 60px;
+}
+
+
+.inputicon{
+    padding: 20px 0px 20px 20px;
+    background-color: #fff;
+    border: 1px solid rgb(211, 209, 209);
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 50%;
+    position: relative;
+}
+
+.inputicon>i{
+
+    font-size: 25px;
+    color: #198754;
+    position: absolute;
+    top: 40%;
+    left: 10px;
+
+}
+
+/* Popular tags */
+
+.main{
+    margin-top: -100px ;
+    z-index: 99 ;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 10%) ;
+    padding: 35px;
+    margin-bottom: 40px;
+}
+
+
+.main a{
+text-decoration: none;
+color: red;
+border: 1px solid gold;
+padding: 10px;
+border-radius: 20px ;
+}
+
+
+.main a:hover{
+    background-color: #198754;
+    transition: 0.2s;
+}
+
+.author{
+    color: #333;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.author:hover{
+    color: #198754;
+}
+
+.footer{
+    margin-top: 20px;
+}
+.footer p{
+    margin-top: 0px;
+}
+
+.footer .left-footer i{
+    margin-left: 8px;
+    font-size: 20px;
+    color: #666;
+}
+
+.left-footer i:hover{
+    color: #198754;
+}
+
+.right-footer i{
+    margin-left: 8px;
+    font-size: 20px;
+    color: #666; 
+}
+
+/* .fa-heart:active{
+    color: red;
+} */
+
+.lefti>i{
+
+    font-size: 30px;
+    /* margin-left: 40px; */
+    margin: 0 0 0px 250px;
+    /* color: lime; */
+    color: #777;
+}
+
+.aaa{
+
+    width: 200px;
+    height: 150px;
+    background-color: rgb(145, 143, 143);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: absolute;
+    top: 100px;
+    /* left: 1300px; */
+    right: 80px;
+    z-index: 100;
+    display : none;
+    color: #fff;
+    padding: 10px 0 0 20px;
+}
+
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 20%) ;
+
+}
+
+.card{
+    margin-top: 25px;
+}
+
+.card p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.pagination{
+    margin-top: 25px;
+}
+.pagination span{
+    margin-left: 10px;
+    border: 1px solid gold;
+    padding: 10px 20px !important;
+    border-radius: 4px;
+}
+
+.pagination span:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+
+.main-footer{
+margin-top: 40px;
+background-color: #000000;
+color: #999999 !important;
+font-size: 14px;
+font-family: Barlow, Helvetica, Arial, sans-serif;
+font-weight: 500;
+padding: 0 15px 20px 15px;
+
+}
+
+.footer-links{
+    padding-top: 20px;
+}
+
+.footer-links ul li{
+    margin-left: 18px;
+    list-style: none;
+
+}
+
+.footer-links ul li a{
+    color: #999999;
+}  
+
+.footer-links ul li a:hover{
+    color: #198754;
+}
+.footer-social button{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.footer-row{
+    margin-top: 18px;
+}
+
+/* Help.html */
+
+
+.help h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.faq-unit{
+   border-bottom: 1px solid #DCDCDC;
+   padding: 15px 0;
+
+}
+
+
+.faq{
+    margin: 0 auto !important;
+}
+
+
+.faq{
+    font-size: 15px !important;
+}
+
+
+/* Contact html */
+
+.contact-p{
+    border-bottom: 1px solid #DCDCDC;
+    padding: 20px 0;
+}
+
+.contact-info input,
+.contact-info textarea{
+    padding: 10px;
+    width: 450px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+    font-family: Barlow, Helvetica, Arial, sans-serif;
+    margin-bottom: 25px;
+
+}
+
+.btn-success{
+    width: 430px;
+}
+
+
+.fas{
+    color: red;
+    transition: .4s;
+}
+
+
+.aaa{
+
+    width: 200px;
+    height: 150px;
+    background-color: rgb(145, 143, 143);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: absolute;
+    top:50px;
+    /* left: 1300px; */
+    right:  0px;
+    z-index: 100;
+    display : none;
+    color: #fff;
+    padding: 10px 0 0 20px;
+}
+
+body{
+
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+    .an{
+
+        display: flex;
+        flex-direction: row;
+        background-color: #f8f9fa!important;
+    }
+
+    .a1{
+
+        flex-grow: 0.8;
+    }
+
+    .a2{
+
+        flex-grow: 2;
+        font-size: 20px;
+    }
+
+    .a3{
+
+        flex-grow: 0.8;
+    }
+
+
+    @media only screen and (max-width: 992px) {
+
+
+        body{
+
+
+        }
+        .a1,.a3{
+
+            display: none !important;
+        }
+        
+    }
+
+    .lefti>i{
+        color: blue !important;    
+        font-size: 30px;
+
+    }
+    .iconofdiv{
+        position: relative !important;
+
+    }
+    .icons{
+        position: absolute !important;
+        right: 0 !important;
+    }
+
+
+    .iconsb{
+
+
+        font-size: 30px;
+    }
+
+    .footera{
+
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    footer{
+        margin-top: 30px;
+        background-color: #000;
+        padding: 20px 0;
+    }
+
+    .footera>a {
+        text-decoration: none;
+        color: #fff;
+        padding-left: 10px;
+    }
+
+    .footerspan {
+        color: #fff;
+        text-align: center;
+    }
+
+    
+@media screen and (max-width:1280px) {
+    /* Navbar ve input hisse */
+    
+        .logo{
+            margin-left: 20px !important;
+            height: 75px !important;
+            display: flex;
+            align-items: center;
+        }
+    
+        .form>button{
+    
+            padding: 10px 15px;
+            font-size: 17px; 
+        }
+    
+        .lefta{
+    
+            font-size: 18px;
+        
+        }
+    
+        .section2{
+            background-image: url('../book2.png');
+            background-repeat: no-repeat;
+            width: 100% !important; 
+            background-size: cover;
+            background-position:center bottom;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 0 300px 0 ;
+            
+        }
+    
+        .inputicon{
+            padding: 10px 0px 10px 20px;
+            background-color: #fff;
+            border: 1px solid rgb(211, 209, 209);
+            border-radius: 10px;
+            margin-top: 30px;
+            width: 50%;
+            
+        }
+    
+    
+        #inp{
+    
+            padding: 20px;
+            /* width: 800px; */
+            border: none;
+            outline: none;
+            /* border-radius: ; */
+          
+        }
+        .has1{
+    
+            font-size: 34px !important;
+            font-weight: 600;
+            color: #111;
+            line-height: 60px;
+        }
+        .sec2p{
+    
+            font-size: 19px;
+            font-weight: 400;
+            color: #4e4e4e;
+            text-align: justify;
+        
+        }
+    }
+
+
+    @media screen and (max-width:1200px){
+
+
+        .a, .b, .c, .d{
+
+
+            width: 170px !important;
+        }
+        
+    }
+
+    @media screen and (max-width:915px) {
+        
+
+        .a, .b, .c, .d{
+
+
+            width: 150px;
+            white-space: nowrap;
+        }
+
+    }
+
+
+    @media screen and (max-width:745px) {
+
+        .inputicon{
+
+            width: 70%;
+        }
+         .sec3row1{
+            flex-direction: column;
+        }
+        .a, .b, .c, .d{
+
+
+            width: 450px;
+            margin-bottom: 10px;
+        }
+
+        .sec3row2{
+
+            display: none;
+         }
+        .sec3row3{
+
+           display: none;
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        
+        .a, .b, .c, .d{
+
+
+            width:300px;
+            margin-bottom: 10px;
+        }
+    }
+/* 
+    @media screen and (max-width:550px) {
+        
+        .inputicon{
+
+            width: 250x;
+    } */
+/* } */
+    @media only screen and (max-width:630px) {
+        
+        .has1{
+
+            font-size: 28px !important;
+        }
+        .sec2p{
+
+
+            font-size: 13px !important;
+            text-align: center !important;
+        }
+        .sec3row0>span{
+
+            font-size: 30px !important;
+        }
+
+        q{
+            font-size: 27px !important;
+
+        }
+     
+    }
+
+    @media screen and (max-width:350px) {
+        
+        .has1{
+
+            font-size:24px !important;
+        }
+        .sec2p{
+
+
+            font-size: 11px !important;
+            text-align: center !important;
+        }
+        .sec3row0>span{
+
+            font-size: 25px !important;
+        }
+        .a, .b, .c, .d{
+
+
+            width:250px;
+            margin-bottom: 10px;
+        }
+        q{
+            font-size: 22px !important;
+
+        }
+
+    }
+
+
+    /* @media screen and (max-width:350px) {
+        
+        .card{
+
+            width: 300px !important;
+           
+        }
+     
+    } */
+
+
+    .card p {
+        font-size: 15px !important;
+        line-height: 28px;
+    }
+
+    @media screen and (max-width:1000px) {
+        
+        .card{
+
+            width: 250px !important;
+
+        }
+    }
+
+    @media screen and (max-width:767px) {
+            .card{
+
+                width: 100% !important;
+            }
+
+    }
+
+@media screen and (max-width:390px) {
+    
+    .main a{
+
+        padding: 10px !important;
+        width: 80px;
+    }
+}
+
+.hiddenli{
+
+    display: none;
+}
+
+
+@media screen and (max-width:991px) {
+    .icons{
+
+        display: none;
+    }
+
+    .hiddenli{
+        display: block;
+    }
+
+}

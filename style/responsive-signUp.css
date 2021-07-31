@@ -1,0 +1,7 @@
+@media screen and(max-height: 304px) {
+    .signup{
+        background-color: red;
+        color: lime;
+    }
+}
+

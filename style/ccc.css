@@ -1,0 +1,23 @@
+.card-body{
+
+    position: relative;
+}
+
+.iconsdiv{
+
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+
+}
+
+.icons{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.newlike>img{
+
+    object-fit: cover;
+
+}
